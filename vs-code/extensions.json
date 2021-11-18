@@ -1,0 +1,36 @@
+{
+  "recommendations": [
+    "abusaidm.html-snippets",
+    "alefragnani.project-manager",
+    "christian-kohler.npm-intellisense",
+    "graphql.vscode-graphql",
+    "jpoissonnier.vscode-styled-components",
+    "christian-kohler.path-intellisense",
+    "CoenraadS.bracket-pair-colorizer",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "dsznajder.es7-react-js-snippets",
+    "eamodio.gitlens",
+    "Equinusocio.vsc-community-material-theme",
+    "equinusocio.vsc-material-theme-icons",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "GitHub.copilot",
+    "GraphQL.vscode-graphql",
+    "Gruntfuggly.todo-tree",
+    "howardzuo.vscode-npm-dependency",
+    "moyu.snapcode",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "naumovs.color-highlight",
+    "pflannery.vscode-versionlens",
+    "ritwickdey.live-sass",
+    "ritwickdey.LiveServer",
+    "rokoroku.vscode-theme-darcula",
+    "steoates.autoimport",
+    "syler.sass-indented",
+    "yatki.vscode-surround"
+  ]
+}
+

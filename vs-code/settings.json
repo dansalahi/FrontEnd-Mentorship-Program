@@ -1,0 +1,69 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#fff",
+    "titleBar.inactiveForeground": "#ffffffcc",
+    "titleBar.activeBackground": "#FF2C70",
+    "titleBar.inactiveBackground": "#FF2C70CC"
+  },
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.snippetSuggestions": "bottom",
+  "workbench.editor.showTabs": true,
+  "explorer.openEditors.visible": 0,
+  "editor.fontLigatures": true,
+  "editor.rename.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.pinnedTabSizing": "compact",
+  "editor.smoothScrolling": true,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.quoteStyle": "single",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "editor.formatOnSave": true,
+  "eslint.run": "onSave",
+  "eslint.packageManager": "yarn",
+  "eslint.quiet": true,
+  "eslint.format.enable": true,
+ "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
+  "files.associations": {
+    "*.ejs": "html"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnPaste": true,
+  "workbench.iconTheme": "eq-material-theme-icons-light",
+  "window.zoomLevel": 1.5,
+  "editor.lineHeight": 33,
+  "editor.fontFamily": "Dank Mono, Operator Mono Lig,Menlo , 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "workbench.colorTheme": "Snazzy Operator",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "editor.fontSize": 18,
+  "explorer.compactFolders": false,
+}
