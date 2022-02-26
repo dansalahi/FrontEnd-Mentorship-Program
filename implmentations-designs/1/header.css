@@ -1,0 +1,35 @@
+#header {
+  min-height: 10vh;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar__logo img {
+  height: 7rem;
+  margin-top: 1rem;
+}
+
+.nav__lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__list {
+  margin: 0 0.5rem;
+}
+
+.nav__link {
+  color: var(--dark-color);
+  transition: all 0.4s ease-in-out;
+}
+
+.nav__link:hover {
+  color: var(--primary-color);
+}

@@ -1,0 +1,48 @@
+#hero {
+  min-height: 88vh;
+  /* padding: ; */
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero__left--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.hero__left--item h1 {
+  font-size: 7.5rem;
+  font-weight: 700;
+  color: var(--dark-color);
+  margin-bottom: 2.5rem;
+  line-height: 8rem;
+}
+
+.hero__left--item p {
+  color: var(--secondary-color);
+  font-size: 2rem;
+}
+
+.left--item__demo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__btn {
+  padding: 1.5rem 2.5rem;
+  font-size: 1.8rem;
+  margin: 0 1rem;
+}
+
+.hero__right--item {
+  opacity: 0.9rem;
+}
