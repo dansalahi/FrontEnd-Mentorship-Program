@@ -18,6 +18,11 @@
   --border-raduis-sm: 0.5rem;
   --border-raduis-md: 1rem;
   --border-raduis-lg: 1.5rem;
+
+  --font-size-sm: 0.75rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
 }
 
 /* px , rem , em, pt, percent */
