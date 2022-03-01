@@ -15,6 +15,9 @@
   --accent-color: #d57d00;
   --light-color: #f7f7f7;
   --secondary-color: #515151;
+  --border-raduis-sm: 0.5rem;
+  --border-raduis-md: 1rem;
+  --border-raduis-lg: 1.5rem;
 }
 
 /* px , rem , em, pt, percent */
