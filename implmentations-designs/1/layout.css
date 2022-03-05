@@ -15,9 +15,15 @@
   --accent-color: #d57d00;
   --light-color: #f7f7f7;
   --secondary-color: #515151;
+
+  --border-raduis-tiny: 0.12rem;
+  --border-raduis-xs: 0.25rem;
   --border-raduis-sm: 0.5rem;
   --border-raduis-md: 1rem;
   --border-raduis-lg: 1.5rem;
+  --border-raduis-xl: 2rem;
+  --border-raduis-2xl: 2.5rem;
+  --border-raduis-3xl: 3rem;
 
   --font-size-sm: 0.75rem;
   --font-size-md: 1rem;
@@ -34,7 +40,13 @@ html {
 
 body {
   font-size: 1.5rem;
-  background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #f2f2f2 75%);
+  background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #f2f8f2 75%);
+}
+
+button,
+span,
+input[type="text"]::placeholder {
+  font-family: inherit;
 }
 
 button {
@@ -52,10 +64,7 @@ a {
 
 .container {
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  /* padding-left: 1rem;
-  padding-right: 1rem; */
+  margin: 0 auto;
   padding: 0 1rem;
 }
 
@@ -78,6 +87,8 @@ a {
 .btn__primary:hover {
   background: transparent;
   color: var(--dark-color);
-  /* border: 2px solid var(--primary-color); */
   box-shadow: inset 0 0 0 0.2rem var(--primary-color);
+  -webkit-box-shadow: inset 0 0 0 0.2rem var(--primary-color);
+  -ms-box-shadow: inset 0 0 0 0.2rem var(--primary-color);
+  -o-box-shadow: inset 0 0 0 0.2rem var(--primary-color);
 }
