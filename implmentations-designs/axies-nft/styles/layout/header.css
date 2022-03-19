@@ -1,3 +1,30 @@
 #header {
   min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--dark-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar__logo img {
+  height: 4rem;
+}
+
+.navbar__nav--list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-item {
+  margin: 0 0.5rem;
+}
+.nav-item-link {
+  color: var(--light-color);
 }
