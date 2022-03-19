@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --primary-color: #4e3fee;
+  --secondary-color: #000;
+  --accent-color: #000;
+  --danger-color: #000;
+  --light-color: snow;
+  --dark-color: #14141f;
+
+  --border-raduis-tiny: 0.12rem;
+  --border-raduis-xs: 0.25rem;
+  --border-raduis-sm: 0.5rem;
+  --border-raduis-md: 1rem;
+  --border-raduis-lg: 1.5rem;
+  --border-raduis-xl: 2rem;
+  --border-raduis-2xl: 2.5rem;
+  --border-raduis-3xl: 3rem;
+
+  --font-size-sm: 0.75rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Noto Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.5rem;
+  background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #f2f8f2 75%);
+}
+
+button,
+span,
+input[type="text"]::placeholder {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
