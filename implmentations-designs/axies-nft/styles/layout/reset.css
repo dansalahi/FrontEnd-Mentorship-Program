@@ -2,11 +2,20 @@
 
 :root {
   --primary-color: #4e3fee;
-  --secondary-color: #000;
-  --accent-color: #000;
-  --danger-color: #000;
-  --light-color: snow;
+  --light-color: #fffafa;
+
+  /* Texts */
+  --light-gray-color: #adadb0;
+  /* Secondary btn border */
+  --gray-color: #606067;
+  /* Icons bg, Cards bg, */
+  --dark-gray-color: #343444;
+  /* Background */
   --dark-color: #14141f;
+  /* Live Auctions */
+  --black-color: #030303;
+  /* Footer bg */
+  --midnight-color: #0d0d12;
 
   --border-raduis-tiny: 0.12rem;
   --border-raduis-xs: 0.25rem;
